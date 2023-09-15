@@ -34,7 +34,15 @@ getMovie()
 console.log(movieList)
     return( 
         <div className='movie'>
-        <h1>Featured Movie</h1>
+          <div className="header">
+             <h1>Featured Movie</h1>
+             <h3>See all 
+             <svg
+              width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.5 4.66668L13.3333 10.5L7.5 16.3333" stroke="#B91C1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             </svg></h3> 
+          </div>
+
     <div className='movieSection'>
     {loading &&( <Loader/>)}
 {movieList.map((movie)=>(
