@@ -24,7 +24,9 @@ function TVseries() {
           <i class="fi fi-ts-calendar-clock"></i><p>UpComing</p>
         </NavLink>
         <div className="box">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque nobis
+          <p>Play movie quizes and earn free tickets</p>
+          <sub>50k people are playing now</sub>
+          <div className="small">Start playing</div>
         </div>
         <div className="logout">log out</div>
       </div>

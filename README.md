@@ -1,3 +1,8 @@
+# USAGE:
+Use the homepage to discover the top-rated movies.
+Click on a movie to view its details.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

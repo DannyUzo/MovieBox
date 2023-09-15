@@ -151,7 +151,7 @@
   height: fit-content;
   gap: 12px;
   flex-direction: column;
-  width: 230px;
+  width: 250px;
 }
 .movieSection .span {
   display: flex;

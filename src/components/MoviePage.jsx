@@ -6,6 +6,8 @@ import ticket from "../assets/TwoTickets.png";
 import { NavLink } from "react-router-dom";
 import Loader from "./Loader";
 
+// const API_KEY = process.env.API_KEY;
+
 const MoviePage = () => {
   const { id } = useParams();
 
@@ -14,6 +16,8 @@ const MoviePage = () => {
   const [movieDetails, setMovieDetails] = useState({});
 
   const [movieList, setMovieList] = useState({});
+  
+  const APIKEY = process.env.REACT_APP_API_KEY;
 
   const getMovie = () => {
     fetch(

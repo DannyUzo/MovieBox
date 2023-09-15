@@ -16,6 +16,8 @@ const MovieSection = () => {
    
 const [loading, setLoading] = useState(true);
 
+  const API_KEY = process.env.REACT_APP_API_KEY;
+//I tried hiding the api key but ...
 
 const [movieList, setMovieList] = useState([]);
 
